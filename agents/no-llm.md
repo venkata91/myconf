@@ -56,6 +56,10 @@ Rewrite the full text using these principles.
 - Replace generic claims with concrete ones from the source. "A recent study"
   becomes the actual study. "Many users" becomes a number if there is one.
 - Cut filler that doesn't carry information.
+- Match detail to the reader. Leave out versions, SKUs and protocol settings
+  they don't need in order to understand or act.
+- Prefer plain words, and don't repeat a distinctive verb (for example
+  "steer").
 
 ### Never use
 
