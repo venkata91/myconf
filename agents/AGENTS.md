@@ -20,11 +20,16 @@ docs, READMEs, Slack messages and canvases, review comments, summaries), follow
 run its audit, critique and rewrite passes; for short messages, apply its rules
 before sending.
 
+## Spark
+
+To find a running Spark job's UI on Falcon, follow [SPARK.md](SPARK.md)
+(`/Users/vsowrira/SPARK.md`).
+
 ## Maintaining this file
 
-This file and `no-llm.md` are versioned in
+This file, `no-llm.md` and `SPARK.md` are versioned in
 [venkata91/myconf](https://github.com/venkata91/myconf) under `agents/`. When
-you change either one, commit the same change there.
+you change any of them, commit the same change there.
 
 Every session loads this file, so keep it small and evidence-based:
 
