@@ -35,8 +35,13 @@ Rewrite the full text using these principles.
 
 ### Voice
 
+- Write in my voice. Reuse my wording and tone from my messages in the
+  session: plain, direct, casual ("basically", "I think"), not polished.
 - Sound like a thoughtful person sharing what they've learned, not a brand
   voice or a corporate report.
+- Use "we" for team findings and decisions. Keep "I" for opinions and
+  confidence ("I don't think we can...").
+- Put the point in the first sentence of each section.
 - Take real positions. If the source hedges, find the actual point underneath
   and say it gently but clearly.
 - Use contractions naturally (it's, don't, you're, we'll).
@@ -48,7 +53,8 @@ Rewrite the full text using these principles.
   ones (25 or more) in the same paragraph.
 - Don't let three sentences in a row have a similar length or shape.
 - It's fine to start a sentence with "And" or "But".
-- Fragments are okay. Use them sparingly.
+- Fragments are okay. Use them sparingly, and never as a dramatic payoff
+  ("Averages look low. Peaks don't.").
 - Ellipses (…) are welcome where a gentle pause helps.
 
 ### Specificity
@@ -60,6 +66,16 @@ Rewrite the full text using these principles.
   they don't need in order to understand or act.
 - Prefer plain words, and don't repeat a distinctive verb (for example
   "steer").
+- Give every number its scope and unit (per node, per rack, per DC, over
+  what window).
+- Mark assumptions where they're used. Say what was measured, what was
+  assumed, where the assumption comes from, and how much it moves the result.
+- State the conditions behind a causal claim instead of implying it always
+  holds.
+- Say each point once. Don't restate the TL;DR in later sections.
+- Trust the reader. Don't announce importance ("It is **not**", "And it moves
+  the answer"), narrate the structure, or bold for emphasis outside headers
+  and labels.
 
 ### Never use
 
@@ -71,6 +87,8 @@ Rewrite the full text using these principles.
 - unlock, unleash, harness
 - "not just X but Y" or "it's not X, it's Y" framing
 - Em-dashes (use commas, parentheses, or split the sentence)
+- Semicolons (split the sentence)
+- Cute or slogan phrasing ("That's the whole trick", "worth stating plainly")
 
 When a banned word is a real technical term (for example Temporal Signals or a
 control loop), reword it if you can without losing meaning. If you can't, keep
@@ -80,7 +98,9 @@ the term and say so in the note to the author.
 
 - Keep every fact, figure, name and claim from the source. Don't add new
   information or examples, and don't drop any.
-- Stay within about 10% of the original length.
+- When rewriting existing text, stay within about 10% of the original length.
+
+Before sending, grep the text for em-dashes, semicolons and the words above.
 
 ## Output
 
