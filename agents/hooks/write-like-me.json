@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      {
+        "type": "command",
+        "exec": "/usr/bin/python3",
+        "args": ["/Users/vsowrira/.copilot/hooks/write-like-me/write_like_me_hook.py", "context"],
+        "timeoutSec": 5
+      }
+    ],
+    "subagentStart": [
+      {
+        "type": "command",
+        "exec": "/usr/bin/python3",
+        "args": ["/Users/vsowrira/.copilot/hooks/write-like-me/write_like_me_hook.py", "context"],
+        "timeoutSec": 5
+      }
+    ],
+    "preToolUse": [
+      {
+        "type": "command",
+        "exec": "/usr/bin/python3",
+        "args": ["/Users/vsowrira/.copilot/hooks/write-like-me/write_like_me_hook.py", "gate"],
+        "timeoutSec": 10
+      }
+    ]
+  }
+}

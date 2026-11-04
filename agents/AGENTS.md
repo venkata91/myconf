@@ -14,11 +14,15 @@ approval.
 
 ## Writing for humans
 
-Whenever you write or edit prose that people will read (PR descriptions, design
-docs, READMEs, Slack messages and canvases, review comments, summaries), follow
-[write-like-me.md](write-like-me.md) (`/Users/vsowrira/write-like-me.md`). For
-substantial drafts, run its audit, critique and rewrite passes; for short
-messages, apply its rules before sending.
+Whenever you write or edit prose that people will read (PR descriptions, commit
+messages, design docs, READMEs, Slack messages and canvases, review comments and
+replies, summaries), follow [write-like-me.md](write-like-me.md)
+(`/Users/vsowrira/write-like-me.md`). For substantial drafts, run its audit,
+critique and rewrite passes. For short messages, apply its rules before sending.
+
+A `preToolUse` hook (`~/.copilot/hooks/write-like-me.json`) rejects publishing
+calls whose text breaks the guide. Fix what it reports and retry. Don't route
+around it, for example by posting through another tool.
 
 ## Spark
 
@@ -27,7 +31,8 @@ To find a running Spark job's UI on Falcon, follow [SPARK.md](SPARK.md)
 
 ## Maintaining this file
 
-This file, `write-like-me.md` and `SPARK.md` are versioned in
+This file, `write-like-me.md`, `SPARK.md` and the write-like-me hook
+(`~/.copilot/hooks/write-like-me.json` and `write-like-me/`) are versioned in
 [venkata91/myconf](https://github.com/venkata91/myconf) under `agents/`. When
 you change any of them, commit the same change there.
 
